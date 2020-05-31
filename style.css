@@ -1,0 +1,84 @@
+.house_area {
+    width: 500px;
+    height: 500px;
+    margin: 5% 20%;
+    border: 1px solid black;
+    position: sticky;
+}
+
+.wall {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(29, 80, 71, 0.753);
+    position: sticky;
+    left: 350px;
+    top: 350px;
+}
+
+.door {
+    width: 50px;
+    height: 90px;
+    background-color: firebrick;
+    opacity: 0%;
+    position: sticky;
+    left: 480px;
+    bottom: 68px;
+}
+
+.window1 {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 226, 226);
+    position: sticky;
+    left: 380px;
+    bottom: 180px;
+}
+
+.window2 {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 226, 226);
+    position: sticky;
+    left: 380px;
+    bottom: 100px;
+}
+
+.window3 {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 226, 226);
+    position: sticky;
+    left: 470px;
+    bottom: 180px;
+}
+
+.roof {
+    width: 0px;
+    height: 0px;
+    position: sticky;
+    left: 350px;
+    z-index: 2;
+    top: 150px;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(59, 228, 149);
+}
+
+.handle {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    position: sticky;
+    left: 515px;
+    bottom: 110px;
+}
+
+.chimney {
+    width: 30px;
+    height: 40px;
+    background-color: firebrick;
+    position: sticky;
+    left: 360px;
+    bottom: 275px;
+}
